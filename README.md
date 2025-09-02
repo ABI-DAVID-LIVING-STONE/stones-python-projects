@@ -1,22 +1,77 @@
-# stones-python-projects
-📈 Ranked Python Projects (Beginner → Advanced)  
+# 📘 Project 1: Number Theory Toolkit
 
-1- Number Theory Toolkit → primes, factors, GCD/LCM.
 
-2- Basic Data Analyzer → stats (mean, median, variance, correlation).
+# 📝 Project Overview
 
-3- Polynomial & Matrix Calculator → algebra + linear algebra.
+Number Theory Toolkit is a Python program that provides a set of mathematical utilities commonly used in number theory. It can check if a number is prime, find factors, compute the Greatest Common Divisor (GCD), Least Common Multiple (LCM), and generate prime numbers within a range.
 
-4- Monte Carlo Simulation → probability & randomness (e.g., estimate π).
+This project demonstrates:
 
-5- Sudoku Solver/Generator → recursion + constraint logic.
+Problem-solving with mathematics.
 
-6- Cryptography Mini-App → Caesar, Vigenère, RSA basics.
+Efficient algorithms (e.g., Euclidean algorithm for GCD).
 
-7- Pathfinding Visualizer → Dijkstra’s / A* on a grid.
+Modular, reusable code design.
 
-8- Stock Price Predictor (Simple) → moving averages & linear regression.
+Input validation and clean error handling.
 
-9- Scheduling/Timetable Optimizer → constraint satisfaction + graph coloring.
+🎯 Features
 
-10- Mini Machine Learning from Scratch → implement algorithms manually.
+✅ Prime number checker.
+
+✅ Factor finder (list of divisors).
+
+✅ GCD & LCM calculator.
+
+✅ Prime generator in a given range.
+
+✅ Simple CLI interface for user interaction.
+
+🛠️ Skills Demonstrated
+
+Python basics (functions, loops, conditionals).
+
+Modular programming & clean code style.
+
+Mathematical reasoning & logic building.
+
+Basic algorithm efficiency considerations.
+
+📂 Project Structure
+
+number_theory_toolkit/
+
+│── main.py            # Entry point (CLI interface)
+
+│── toolkit.py         # Core functions (math logic)
+
+│── README.md          # Project documentation
+
+│── tests.py           # Unit tests for each function
+
+📊 Example Usage
+
+$ python main.py
+Welcome to the Number Theory Toolkit!
+
+1. Check Prime
+2. Find Factors
+3. Compute GCD & LCM
+4. Generate Primes in Range
+5. Exit
+
+Choose an option: 1
+
+Enter a number: 29
+
+✅ 29 is a prime number.
+
+🚀 Future Enhancements
+
+Add modular inverse and Euler’s Totient function.
+
+GUI version using Tkinter.
+
+Integration with a math API.
+
+
